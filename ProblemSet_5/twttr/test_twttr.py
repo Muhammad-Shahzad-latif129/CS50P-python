@@ -1,13 +1,13 @@
 import twttr
 
 def test_shorten_for_lowercase():
-    assert twttr.shorten('shahzad') == 'shhzd'
+    assert twttr.shorten('khan') == 'khn'
 
 def test_shorten_for_uppercase():
-    assert twttr.shorten('SHAHZAD') == 'SHHZD'
+    assert twttr.shorten('KHAN') == 'KHN'
 
 def test_shorten_for_mixedcase():
-    assert twttr.shorten('ShAHZad') == 'ShHZd'
+    assert twttr.shorten('KhAN') == 'KhN'
 
 def test_shorten_for_numbers():
     assert twttr.shorten('12345') == '12345'
