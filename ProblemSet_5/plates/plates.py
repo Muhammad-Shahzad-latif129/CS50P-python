@@ -22,5 +22,6 @@ def is_valid(s):
             if not s[i:].isdigit():
                 return False
             break
-    return True        
-main()
+    return True   
+if __name__ == "__main__":     
+    main()
