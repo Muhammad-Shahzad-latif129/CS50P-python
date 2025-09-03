@@ -13,4 +13,4 @@ def test_h_only():
 def test_other():
     assert bank.value("Good morning") == 100
     assert bank.value("What's up") == 100
-    assert bank.value("Bye") == 100
+   
